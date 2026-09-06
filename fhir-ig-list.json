@@ -153,7 +153,14 @@
     "product" : ["fhir"],
     "country" : "uz",
     "language" : ["en", "ru", "uz"],
-    "canonical" : "https://dhp.uz/fhir/core"
+    "canonical" : "https://dhp.uz/fhir/core",
+    "editions" : [{
+      "name" : "Releases",
+      "ig-version" : "0.8.0",
+      "package" : "uz.dhp.core#0.8.0",
+      "fhir-version" : ["5.0.0"],
+      "url" : "https://dhp.uz/fhir/core"
+    }]
   },
   {
     "name" : "CCDA on FHIR",
@@ -348,7 +355,12 @@
     "history" : "http://fhir.org/guides/hspc/core/history.html",
     "canonical" : "http://fhir.org/guides/hspc/core",
     "ci-build" : "http://build.fhir.org/ig/hspc/core",
-    "editions" : [],
+    "editions" : [{
+      "name" : "First Release",
+      "ig-version" : "0.1.0",
+      "package" : "fhir.hspc.core#0.1.0",
+      "fhir-version" : ["1.9.0"],
+      "url" : "https://fhir.org/guides/hspc/core/0.1.0"}],
     "analysis" : {
     }
   },
@@ -2237,7 +2249,14 @@
     "canonical" : "https://mednet.swiss/fhir",
     "analysis" : {
     },
-    "language" : ["en"]
+    "language" : ["en"],
+    "editions" : [{
+      "name" : "CI Build",
+      "ig-version" : "0.20.0",
+      "package" : "swiss.mednet.fhir#0.20.0",
+      "fhir-version" : ["4.0.1"],
+      "url" : "https://doc.mednet.swiss/fhir"
+    }]
   },
   {
     "name" : "US Drug Formulary",
@@ -10440,7 +10459,7 @@
       "editions" : [{
         "name" : "STU1",
         "ig-version" : "0.2.0",
-        "package" : "hl7.fhir.cl.minsal.eiso#0.2.0",
+        "package" : "hl7.fhir.cl.minsal.eis#0.2.0",
         "fhir-version" : ["4.0.1"],
         "url" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/0.2.0"
       }]
