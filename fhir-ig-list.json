@@ -10454,7 +10454,7 @@
       "history" : "https://interoperabilidad.minsal.cl/fhir/ig/eis/history.html",
       "language" : ["es"],
       "canonical" : "https://interoperabilidad.minsal.cl/fhir/ig/eis",
-      "ci-build" : "https://build.fhir.org/ig/Minsal-CL/eis/",
+      "ci-build" : "https://build.fhir.org/ig/Minsal-CL/eis",
       "product" : ["fhir"],
       "editions" : [{
         "name" : "STU1",
