@@ -10382,6 +10382,7 @@
       "package" : "fhir.cdc.opioid-cds#2022.1.1",
       "fhir-version" : ["4.0.1"],
       "url" : "http://fhir.org/guides/cdc/opioid-cds/2022.1.1"
+      ]}
     },
     {
       "name" : "Repositorio de Reportes de Biopsias Oncológicas del Ministerio de Salud",
