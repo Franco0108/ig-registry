@@ -10422,7 +10422,6 @@
         "fhir-version" : ["4.0.1"],
         "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/1.0.0"
       }]
-    }]
   },
   {
     "name" : "Austrian Appointment Scheduling (R5)",
